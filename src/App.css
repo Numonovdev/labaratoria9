@@ -1,0 +1,132 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: darkorchid;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+  color: #fff;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+section{
+  margin-top: 50px;
+  display: flex;
+  height: 1500px;
+  margin-top: 50px;
+  background-color: blueviolet;
+}
+.lift-block{
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 50px 0;
+  background-color: #4d4c4c70;
+}
+.lift-block .dark{
+  position: absolute;
+  bottom: 10px;
+  width: 80px;
+  border-radius: 40px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+.dark .darckligth{
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #2e282b;
+}
+.lift{
+  margin-top: 1200px;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+  position: relative;
+  background-color: #fff;
+  transition: margin-top 4s ease;
+}
+/* .lift::before{ */
+  /* content: ""; */
+  /* width: 150px; */
+  /* height: 200px; */
+  /* background-color: black; */
+  /* position: absolute; */
+  /* right: 0; */
+  /* top: 0; */
+  /* display: block; */
+/* } */
+
+
+.block{
+  width: 64px;
+  height: 70px;
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+  /* background-color: #2e282b; */
+}
+.block span{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e282b;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  gap: 2px;
+  cursor: pointer;
+}
+.block span i{
+  font-size: 8px;
+}
+.devor{
+  padding: 50px 0;
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: slategray;
+}
+.etaj{
+  width:300px ;
+  height: 200px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  gap: 20px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 900;
+}
+.etaj span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #2e282b;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  /* border: 1px solid black ; */
+}
